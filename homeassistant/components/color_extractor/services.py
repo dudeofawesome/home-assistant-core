@@ -7,6 +7,7 @@ import logging
 import aiohttp
 from colorthief import ColorThief
 from PIL import UnidentifiedImageError
+import HeifImagePlugin  # noqa: F401
 import voluptuous as vol
 
 from homeassistant.components.light import (
