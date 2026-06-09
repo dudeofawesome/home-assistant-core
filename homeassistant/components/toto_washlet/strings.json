@@ -1,0 +1,69 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "This TOTO Washlet has already been configured with this transmitter.",
+      "no_emitters": "No infrared transmitter entities found. Please set up an infrared device first."
+    },
+    "step": {
+      "user": {
+        "data": {
+          "infrared_entity_id": "Infrared transmitter"
+        },
+        "data_description": {
+          "infrared_entity_id": "The infrared transmitter entity to use for sending commands."
+        },
+        "description": "Select the infrared transmitter entity to use for controlling your TOTO Washlet.",
+        "title": "Set up TOTO Washlet"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "dryer": {
+        "name": "Dryer"
+      },
+      "eco_flush": {
+        "name": "Eco flush"
+      },
+      "front": {
+        "name": "Front wash"
+      },
+      "full_flush": {
+        "name": "Full flush"
+      },
+      "lid_open_close": {
+        "name": "Lid open/close"
+      },
+      "light_flush": {
+        "name": "Light flush"
+      },
+      "oscillate": {
+        "name": "Oscillate"
+      },
+      "power_deodorizer": {
+        "name": "Power deodorizer"
+      },
+      "pulsate": {
+        "name": "Pulsate"
+      },
+      "rear": {
+        "name": "Rear wash"
+      },
+      "seat_open_close": {
+        "name": "Seat open/close"
+      },
+      "soft_rear": {
+        "name": "Soft rear wash"
+      },
+      "stop": {
+        "name": "Stop"
+      },
+      "user_1": {
+        "name": "User 1"
+      },
+      "user_2": {
+        "name": "User 2"
+      }
+    }
+  }
+}
